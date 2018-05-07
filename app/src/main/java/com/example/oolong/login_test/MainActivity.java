@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         etPassword = findViewById(R.id.etPassword);
         String password = etPassword.getText().toString();
 
-        if(new String("test123").equals(name) && new String("123456").equals(password)) {
+        if(new String("test123").equals(name) && new String("test123").equals(password)) {
             img.setAnimation(downtoup);
             rellay1.setAnimation(downtoup);
             rellay2.setAnimation(downtoup);
